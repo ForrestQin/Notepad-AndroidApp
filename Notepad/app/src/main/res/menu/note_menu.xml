@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        app:showAsAction="always">
+
+        <item
+            android:id="@+id/edit_title"
+            android:title="Edit title"
+            android:icon="@drawable/ic_toys_white_36dp"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_share_white_36dp"/>
+        <item
+            android:title="删除"
+            app:showAsAction="never"
+            android:id="@+id/delete"
+            android:icon="@drawable/ic_delete_white_36dp" />
+
+
+    </group>
+</menu>

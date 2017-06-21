@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:id="@+id/backgroup"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/bg9"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/headshot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hs"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/mail"
+        android:layout_alignStart="@+id/mail"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yourname@example.com"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_below="@+id/headshot"
+        android:layout_alignLeft="@+id/header_username"
+        android:layout_alignStart="@+id/header_username"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="君の名"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_below="@+id/mail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+
+</RelativeLayout>

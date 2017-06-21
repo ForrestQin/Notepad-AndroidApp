@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value = "Note"></dbname>
+
+    <version value = "2">
+        <mapping class="com.woodyching.notepad.bean.Note"></mapping>
+        <mapping class = "com.woodyching.notepad.bean.User"></mapping>
+        <mapping class = "com.woodyching.notepad.bean.menu"></mapping>
+    </version>
+
+    <list>
+    </list>
+</litepal>
